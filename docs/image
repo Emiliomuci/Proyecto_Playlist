@@ -1,1 +1,62 @@
 
+
+Comparativa Detallada entre Máquina Virtual y Docker
+
+Este documento amplía los resultados obtenidos en el proyecto comparativo, explicando el contexto de cada métrica, cómo se midió y qué representa.
+
+1. Uso de CPU en reposo
+
+VM: 5%
+
+Docker: 2%
+
+La máquina virtual mantiene procesos del sistema operativo huésped activos constantemente, lo que incrementa el uso base de la CPU. Docker solo ejecuta el contenedor con Node.js, consumiendo menos ciclos.
+
+2. Uso de RAM
+
+VM: 500 MB
+
+Docker: 150 MB
+
+La VM requiere memoria para el SO completo, servicios de fondo y la aplicación. Docker solo asigna lo justo para el contenedor y la app.
+
+3. Espacio en disco ocupado
+
+VM: 4 GB
+
+Docker: 250 MB
+
+Ubuntu Server, junto con dependencias, ocupa mucho más espacio que una imagen de Node.js Alpine usada en Docker.
+
+4. Tiempo de arranque
+
+VM: 90 segundos
+
+Docker: 5 segundos
+
+El arranque de un sistema operativo completo y servicios como SSH o red toma tiempo. Docker simplemente inicia un contenedor preconfigurado.
+
+5. Benchmark de CPU (sysbench)
+
+VM: 20 segundos
+
+Docker: 18 segundos
+
+Ambos entornos ejecutaron la misma prueba. Docker tiene un leve rendimiento superior gracias a menor sobrecarga.
+
+6. Velocidad de disco (fio)
+
+VM: 150 MB/s
+
+Docker: 180 MB/s
+
+Docker accede directamente al sistema de archivos del host, mientras que la VM puede tener una capa adicional de virtualización del disco.
+
+7. Latencia HTTP (Apache Benchmark)
+
+VM: 120 ms
+
+Docker: 100 ms
+
+Docker responde más rápido a peticiones HTTP porque no atraviesa tanto middleware de red virtualizada como la VM.
+
