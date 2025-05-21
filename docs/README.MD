@@ -9,13 +9,14 @@ Esta guía te muestra cómo configurar y ejecutar la aplicación Node.js en una 
 - 2 CPU, 2 GB de RAM, 20 GB de disco
 - Conexión de red NAT o puente
 
-## Instalación de Node.js
+## Instalación
 
 1. Inicia tu VM.
 2. Instala Node.js:
 ```bash
 sudo apt update
 sudo apt install nodejs npm -y
+
 3. Verifica:
   node -v
   npm -v
