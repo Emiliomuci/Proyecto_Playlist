@@ -21,7 +21,10 @@ Este proyecto compara el rendimiento y uso de recursos entre una máquina virtua
 
 - [`docker/`](./docker)   
   Contiene el Dockerfile para construir la imagen del contenedor.
-
+  
+- [`docs/`](./docs)
+  Contiene información extra del proyecto y gráfica de las métricas evaluadas.
+  
 - [`tests/`](./tests) 
   Pruebas unitarias básicas (opcional).
 
