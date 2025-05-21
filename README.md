@@ -19,22 +19,22 @@ Este proyecto compara el rendimiento y uso de recursos entre una máquina virtua
 - [`app/`](./app)  
   Código fuente de la aplicación Node.js, incluyendo servidor y archivos estáticos.
 
-- `docker/`  
+- [`docker/`](./docker)   
   Contiene el Dockerfile para construir la imagen del contenedor.
 
-- `tests/`  
+- [`tests/`](./tests) 
   Pruebas unitarias básicas (opcional).
 
-- `.gitignore`  
+- [`.gitignore`](./.gitignore)    
   Archivos y carpetas ignoradas por Git.
 
-- `README.md`  
+- [`README.md`](./README.md)  
   Documentación del proyecto.
 
-- `package.json`  
+- [`package.json`](./package.json)
   Dependencias y scripts.
 
-- `LICENSE`  
+- [`LICENSE`](./LICENSE) 
   Licencia del proyecto.
 
 ## Cómo ejecutar
