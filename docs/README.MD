@@ -34,10 +34,7 @@ sudo apt install nodejs npm -y
 4.- Accede desde tu navegador:
     - http://<IP-DE-TU-VM>:3000
 
-
----
-
-### 📄 `docs/setup_docker.md`
+### 📄 Docker
 
 ```markdown
 # Guía de Configuración en Docker
