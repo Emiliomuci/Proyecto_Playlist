@@ -16,7 +16,7 @@ Este proyecto compara el rendimiento y uso de recursos entre una máquina virtua
 
 ## Estructura del Proyecto
 
-- `app/`  
+- `app/`(./app)
   Código fuente de la aplicación Node.js, incluyendo servidor y archivos estáticos.
 
 - `docker/`  
