@@ -123,6 +123,6 @@ Las máquinas virtuales siguen siendo relevantes para entornos con requisitos es
 
 Emilio Muciño Segura
 
-# [`Licencia`](./License)
+ [`Licencia`](./License)
 
 MIT
