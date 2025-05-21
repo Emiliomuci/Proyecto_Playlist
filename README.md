@@ -101,7 +101,8 @@ Portabilidad y Flexibilidad: Docker destaca por su facilidad para mover contened
 
 ## Conclusión
 
-Docker es una excelente opción para desarrollo ágil y despliegue eficiente, mientras que las máquinas virtuales siguen siendo importantes cuando se requiere un aislamiento total y seguridad reforzada.
+Docker es ideal para desarrollo moderno, rápido y eficiente.
+Las máquinas virtuales siguen siendo relevantes para entornos con requisitos estrictos de aislamiento, pruebas de sistemas operativos completos o necesidad de replicar entornos reales.
 
 ## Comandos útiles para el proyecto
 
@@ -122,6 +123,6 @@ Docker es una excelente opción para desarrollo ágil y despliegue eficiente, mi
 
 Emilio Muciño Segura
 
-## Licencia
+## [`Licencia`](./License)
 
 MIT
